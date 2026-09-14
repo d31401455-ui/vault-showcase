@@ -16,7 +16,7 @@ export function VaultProgress() {
   return (
     <div className="w-full">
       <div className="flex items-end justify-between gap-4">
-        <span className="eyebrow">The Vault · global community bar</span>
+        <span className="eyebrow">Community progress</span>
         <span className="font-mono text-xs text-muted-foreground">{pct}%</span>
       </div>
 
@@ -40,7 +40,7 @@ export function VaultProgress() {
           <span className="text-muted-foreground"> / {GOAL.toLocaleString("en-US")}</span>
         </p>
         <p className="font-mono text-xs uppercase tracking-[0.24em] text-muted-foreground">
-          {(GOAL - CURRENT).toLocaleString("en-US")} remaining
+          {(GOAL - CURRENT).toLocaleString("en-US")} until the Vault opens
         </p>
       </div>
     </div>

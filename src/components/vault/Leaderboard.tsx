@@ -17,7 +17,7 @@ export function Leaderboard() {
       <div className="flex items-center justify-between border-b border-border px-5 py-4">
         <h3 className="text-2xl">Who is closest to it</h3>
         <span className="font-mono text-[0.65rem] uppercase tracking-[0.24em] text-muted-foreground">
-          demo data
+          This week
         </span>
       </div>
       <ol className="divide-y divide-border">
@@ -47,7 +47,7 @@ export function Leaderboard() {
         ))}
       </ol>
       <p className="border-t border-border px-5 py-4 text-sm text-muted-foreground">
-        Individual points feed the Vault. The Vault never belongs to one name.
+        Every point brings the whole room closer.
       </p>
     </div>
   );
